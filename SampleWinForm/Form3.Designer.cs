@@ -105,6 +105,7 @@ namespace SampleWinForm
             this.btnBinaryWrite.TabIndex = 6;
             this.btnBinaryWrite.Text = "Binary Write";
             this.btnBinaryWrite.UseVisualStyleBackColor = true;
+            this.btnBinaryWrite.Click += new System.EventHandler(this.btnBinaryWrite_Click);
             // 
             // btnBianryRead
             // 

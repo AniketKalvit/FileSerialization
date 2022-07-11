@@ -16,5 +16,10 @@ namespace SampleWinForm
         {
             InitializeComponent();
         }
+
+        private void btnBinaryWrite_Click(object sender, EventArgs e)
+        {
+            // code for binary write serialization
+        }
     }
 }
